@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  border: solid 5px rgb(180, 175, 175);
+  margin-bottom: 50px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.parts {
+  display: flex;
+}
+
+.box-1 {
+  width: 600px;
+  height: 250px;
+  background-image: linear-gradient(to top right, darkblue 30%, white 30% 35%, red 35% 45%, white 45% 60%, darkblue 60%);
+}
+
+.box-2 {
+  width: 300px;
+  height: 250px;
+  background-image: linear-gradient(to right, white 10%, red 10% 90%, white 90%);
+}
+
+.box-3 {
+  width: 600px;
+  height: 250px;
+  background-image: linear-gradient(to top left, darkblue 30%, white 30% 35%, red 35% 45%, white 45% 60%, darkblue 60%);
+}
+
+.box-4 {
+  width: 630px;
+  height: 250px;
+  background-image: linear-gradient(to bottom, white 12%, red 12% 88%, white 88%);
+}
+
+.box-5 {
+  width: 240px;
+  height: 250px;
+  background-color: rgb(255, 0, 0)
+}
+
+.box-6 {
+  width: 600px;
+  height: 250px;
+  background-image: linear-gradient(to bottom right, darkblue 30%, white 30% 35%, red 35% 45%, white 45% 60%, darkblue 60%);
+}
+
+.box-8 {
+  width: 600px;
+  height: 250px;
+  background-image: linear-gradient(to bottom left, darkblue 30%, white 30% 35%, red 35% 45%, white 45% 60%, darkblue 60%);
+}
+
+.part-1 {
+  width: 1200px;
+  height: 250px;
+  background-image: linear-gradient(to right, rgb(131, 14, 14) 25%, rgb(235, 227, 227) 25% 30%, rgb(3, 3, 49) 30% 40%, rgb(235, 227, 227) 40% 45%, rgb(131, 14, 14) 45%)
+}
+
+.part-2 {
+  width: 1200px;
+  height: 60px;
+  background-image: linear-gradient(to right, rgb(235, 227, 227) 30%, rgb(3, 3, 49) 30% 40%, rgb(235, 227, 227) 40%)
+}
+
+.part-3 {
+  width: 1200px;
+  height: 120px;
+  background-color: rgb(3, 3, 49);
+}
